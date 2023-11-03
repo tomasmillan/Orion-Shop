@@ -14,7 +14,11 @@ export default function Layout({ children }) {
         <div className="text-center w-full  ">
           {/* Botones para iniciar sesión con Google y con credenciales */}
           <button
-            onClick={() => signIn("google")}
+            
+            onClick={(e) => {
+              e.preventDefault();
+              signIn("google")
+            }}
             className="bg-white rounded-lg p-2 px-4"
           >
             Login with Google
