@@ -5,12 +5,7 @@ import GoogleProvider from "next-auth/providers/google";
 import  CredentialsProvider  from "next-auth/providers/credentials";
 
 const adminEmails = [
-  "tomas.millan96@gmail.com",
-  "orionaceros.info@gmail.com",
-  "silnolu33@gmail.com",
-  "toniolanus@gmail.com",
-  "alexisandoval1971@gmail.com",
-  "tano.ballan@gmail.com",
+"MAILS@MAILS",
 ];
 
 export const authOptions = {
